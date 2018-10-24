@@ -1,9 +1,8 @@
 <template>
   <div>
-    <button v-on:click="isAdmin = true">ADMIN</button>
-    <button v-on:click="isAdmin = false">USER</button>
+    <button @click="isAdmin = true">ADMIN</button>
+    <button @click="isAdmin = false">USER</button>
     <admin-view v-if="isAdmin" @addProject="addProject"/>
-    <!-- <user-view projects="projects" /> -->
   </div>
 </template>
 

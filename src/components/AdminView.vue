@@ -2,10 +2,7 @@
   <div>
     Title
     <input v-model="title">
-    {{title}}
-    <button v-on:click="handleSubmit">
-      SUBMIT
-    </button>
+    <button @click="handleSubmit">SUBMIT</button>
   </div>
 </template>
 

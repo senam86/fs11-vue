@@ -1,7 +1,6 @@
 <template>
   <div>
-    User View Component
-    <!-- {projects} -->
+    User View
   </div>
 </template>
 
@@ -9,9 +8,6 @@
 <script>
 export default {
   name: "UserView"
-  // data: () => ({
-  //   projects
-  // })
 };
 </script>
 

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Hello World</h1>
     <button @click="isAdmin = true">ADMIN</button>
     <button @click="isAdmin = false">USER</button>
     <admin-view v-if="isAdmin" @addProject="addProject"/>
@@ -30,4 +31,7 @@ export default {
 </script>
 
 <style>
+h1 {
+  color: red;
+}
 </style>

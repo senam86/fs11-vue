@@ -16,7 +16,7 @@ export default {
     description: ""
   }),
   methods: {
-    handleSubmit(event) {
+    handleSubmit() {
       this.$emit("addProject", {
         title: this.title,
         image: this.image,

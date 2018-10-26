@@ -17,7 +17,7 @@ export default {
   }),
   methods: {
     handleSubmit() {
-      this.$emit("addProject", {
+      this.$emit("createProject", {
         title: this.title,
         image: this.image,
         description: this.description

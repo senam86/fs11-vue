@@ -3,7 +3,7 @@
     <h1>Hello World</h1>
     <button @click="isAdmin = true">ADMIN</button>
     <button @click="isAdmin = false">USER</button>
-    <admin-view v-if="isAdmin" @addProject="addProject"/>
+    <admin-view v-if="isAdmin" @createProject="addProject"/>
   </div>
 </template>
 
@@ -20,11 +20,11 @@ export default {
   },
   data: () => ({
     isAdmin: true,
-    projects: []
+    allProjects: []
   }),
   methods: {
     addProject: function(project) {
-      this.projects.push(project);
+      this.allProjects.push(project);
     }
   }
 };

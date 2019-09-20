@@ -1,20 +1,21 @@
 <template>
   <div>
     Title
-    <input v-model="title">
+    <input v-model="title" />
     <button @click="handleSubmit">SUBMIT</button>
   </div>
 </template>
 
-
 <script>
 export default {
   name: "AdminView",
-  data: () => ({
-    title: "",
-    image: "",
-    description: ""
-  }),
+  data() {
+    return {
+      title: "",
+      image: "",
+      description: ""
+    };
+  },
   methods: {
     handleSubmit() {
       this.$emit("createProject", {
@@ -27,5 +28,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

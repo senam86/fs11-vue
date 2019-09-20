@@ -1,9 +1,6 @@
 <template>
-  <div>
-    User View
-  </div>
+  <div>User View</div>
 </template>
-
 
 <script>
 export default {
@@ -11,5 +8,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

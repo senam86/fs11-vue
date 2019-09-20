@@ -10,8 +10,8 @@ In this repository, you will use Vue to build a SPA (Single Page Application).
 
 ## Setup
 
-Run `yarn` to install packages.
-Run `yarn serve` to run the development server.
+Run `npm install` to install packages.
+Run `npm run serve` to run the development server.
 
 ## Basic Requirements
 

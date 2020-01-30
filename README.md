@@ -18,9 +18,9 @@ Run `npm run serve` to run the development server.
 ### 1. Add two views - one for the user and one for the admin
 
 - [ ] Add functionality.
-  - Clicking on "Admin" should show the admin view, and clicking on "User" should show the user view.
+  - Clicking on "Admin" should show the admin view, and clicking on "User" should show the user view. This is already done for you: your job is to understand how it is done, how components are connected.
 - [ ] Add styling.
-  - The current page the user is on should be clear.
+  - The current page the user is on should be clear. Add some conditional styling to the button elements to show this.
 
 ![Admin View](support/admin_view.png)
 

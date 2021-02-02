@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1>Hello World</h1>
-    <button @click="isAdmin = true">ADMIN</button>
-    <button @click="isAdmin = false">USER</button>
+    <button @click="isAdmin = true" :class="{ red: isAdmin }">ADMIN</button>
+    <button @click="isAdmin = false" :class="{ red: !isAdmin }">USER</button>
     <admin-view v-if="isAdmin" @createProject="addProject" />
     <user-view v-else />
   </div>
@@ -32,4 +32,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.red {
+  color: red;
+  background-color: seagreen;
+}
+</style>
